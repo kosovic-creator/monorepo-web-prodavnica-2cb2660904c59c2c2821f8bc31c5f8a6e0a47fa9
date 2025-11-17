@@ -1,0 +1,56 @@
+
+
+> admin@0.1.0 build
+> prisma generate --schema=../../prisma/schema.prisma && next build
+
+[2mEnvironment variables loaded from .env[22m
+[2mPrisma schema loaded from ../../prisma/schema.prisma[22m
+
+
+✔ Generated [1mPrisma Client[22m (v6.19.0)[2m to ./../../node_modules/@prisma/client[22m in 250ms
+
+Start by importing your Prisma Client (See: https://pris.ly/d/importing-client)
+
+Tip: Want to turn off tips and other hints? https://pris.ly/tip-4-nohints
+
+  [1m[38;2;173;127;168m▲ Next.js 14.2.33[39m[22m
+  - Environments: .env
+
+ [37m[1m [22m[39m Creating an optimized production build ...
+Failed to compile.
+
+./app/proizvodi/(.)dodaj/DodajProizvodModalClient.tsx
+Module not found: Can't resolve '@/components/ImageUpload'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/proizvodi/[id]/historija/HistorijaProizvodaClient.tsx
+Module not found: Can't resolve '@/lib/actions/proizvodi'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/proizvodi/[id]/pregled/PregledProizvodaClient.tsx
+Module not found: Can't resolve '@/lib/actions/proizvodi'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/proizvodi/[id]/statistike/StatistikeProizvodaClient.tsx
+Module not found: Can't resolve '@/lib/actions/proizvodi'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/proizvodi/izmeni/[id]/page.tsx
+Module not found: Can't resolve '@/zod'
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+> Build failed because of webpack errors
+⠙[1G[0K[1mnpm[22m [31merror[39m Lifecycle script `build` failed with error:
+⠙[1G[0K[1mnpm[22m [31merror[39m [94mcode[39m [33m1[39m
+⠙[1G[0K[1mnpm[22m [31merror[39m [94mpath[39m /Users/drasko/monorepo-web-prodavnica/apps/admin
+⠙[1G[0K[1mnpm[22m [31merror[39m [94mworkspace[39m admin@0.1.0
+⠙[1G[0K[1mnpm[22m [31merror[39m [94mlocation[39m /Users/drasko/monorepo-web-prodavnica/apps/admin
+⠙[1G[0K[1mnpm[22m [31merror[39m command failed
+⠙[1G[0K[1mnpm[22m [31merror[39m [94mcommand[39m sh -c prisma generate --schema=../../prisma/schema.prisma && next build
+⠙[1G[0K
